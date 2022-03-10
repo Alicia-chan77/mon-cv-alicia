@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Varela+Round&display=swap');
+
+h2	{
+	color: #D4423E;
+	text-shadow: 0.1em 0.1em 0.2em darkred;
+}
+
+h1	{
+	color: #BB0B0B;
+	font-weight: bolder;
+	box-shadow: 1px 1px 2px 2px #Df1E26;
+}
+
+body {
+	font-family: 'Varela', cursive;
+	background-color: #BBE8C4;
+	background-image:url(https://cdn.radiofrance.fr/s3/cruiser-production/2021/02/426c0099-7c6c-4b7b-934a-b2dcc86e6380/838_gettyimages-1265067608.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: bottom;
+  opacity: 90%;
+}   
+
+h1, h2 {
+	font-family: 'Quicksand', serif;
+}
+
+div {
+	background-color: white;
+    text-align: center;
+    padding: 30px;
+    width: 250px;
+    margin: 16px auto;
+    box-shadow: 1px 1px 5px 2px #004a4a;
+    border-radius: 40px;
+}
+
+#avatar {
+	width: 140px;
+	height: 140px;
+	object-fit: cover;
+	border-radius: 40%;
+}
+
+  a {
+    text-decoration: none;
+}
+
+.btn-green {
+    color: white;
+	background-color: #008568;
+	padding: 8px 16px;
+	border-radius: 6px;
+	border: 1,5px #008568;
+	box-shadow: 1px 1px 5px 2px lightgreen;
+	font-weight: bold;
+}
+
+.btn-green:hover {
+	background-color: lightgreen;
+	color: darkgreen;
+	border: darkgreen;
+	box-shadow: 1px 1px 5px 2px darkgreen;
+	transition: 1s;
+}
+
+.fitcha {
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 70%;
+}
+
+.photo-nature {
+	width: 140px;
+	height: 140px;
+	object-fit: cover;
+}
+
+.liste-aligne {
+	padding: 0;
+	list-style: none;
+}
+
+.liste-aligne li {
+	display: inline;
+	margin: 0 16px;
+	font-size: 80px;
+}
+
+.fa-brands {
+	color: darkblue;
+}
+
+.fa-brands:hover {
+	color: darkred;
+}
+
+@media (min-width: 576px) {
+	div {
+		width: 450px;
+	}
+}
+
+@media (min-width: 768px) {
+	div {
+		width: 550px;
+	}
+}
+
+@media (min-width: 992px) {
+	div {
+		width: 750px;
+	}
+}
+
